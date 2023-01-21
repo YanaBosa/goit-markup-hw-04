@@ -329,21 +329,21 @@ img {
   align-items: center;
   padding: 16px 32px;
   justify-content: center;
+  color: #8e8f99;
 }
 .customers-icon {
-  fill: #8e8f99;
+  fill: currentColor;
 }
 
 .customers-link:is(:hover, :focus) {
   border-color: #404bbf;
+  color: #404bbf;
 }
 
 /* .customers-link:is(:hover, :focus) .customers-icon {
   fill: #404bbf;
 } */
-.customers-icon:hover {
-  fill: #404bbf;
-}
+
 
 /*------------------ Footer------------------ */
 .footer {
